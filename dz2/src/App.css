@@ -1,0 +1,54 @@
+.App{
+	text-align: center;
+}
+.header{
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.header__link{
+	padding: 5px 10px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: #000;
+	border-radius: 10px;
+	transition: .2s;
+}
+
+.header__link:hover{
+	background-color: #a4a4a4;
+}
+
+.list{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.list__name{
+	border-radius: 10px;
+	transition: .2s;
+	padding: 10px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.list__name:hover{
+	background-color: #a4a4a4;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 0 auto;
+}
+.form textarea{
+	height: 150px;
+	margin: 20px 0;
+}
+
+.button{
+	margin: 20px 0;
+}

@@ -1,0 +1,135 @@
+*{font-family: sans-serif; margin: 0; padding: 0; box-sizing: border-box;}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.citate{
+	text-align: center;
+}
+
+.show{
+	display: block;
+	font-size: 20px;
+}
+
+.none{
+	display: none;
+}
+
+.citate__button{
+	margin: 10px;
+	padding: 20px;
+	font-size: 20px;
+	cursor: pointer;
+	background: #28d2ca;
+	border: none;
+	border-radius: 5px;
+	color: #464646;
+}
+
+
+/* =============== Задание 1 ==================== */
+.album{
+	width: 650px;
+	margin: 20px;
+	background: #68dcdf;
+	padding: 20px;
+	border-radius: 10px;
+	flex: 0 0 auto;
+}
+
+.album__img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.album__data{
+	display: flex;
+	justify-content: space-between;
+}
+
+.album__suptitle {
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.album__title{
+	margin: 10px 0;
+	font-size: 40px;
+}
+
+.album__artist{
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.low{
+	font-size: small;
+	color: #818181;
+}
+
+.album__list{
+	list-style: none;
+	padding: 10px 5px;
+}
+
+.album__list li{
+	padding: 5px;
+}
+
+
+
+/* =============== Задание 2 ==================== */
+.personal{
+	flex: 1 1 auto;
+	margin: 20px;
+	padding: 20px;
+	background: #e668e2;
+	border-radius: 10px;
+}
+
+input, textarea{
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 18px;
+}
+
+.form{
+	width: 300px;
+}
+
+.form__item{
+	margin-bottom: 20px;
+}
+
+.form__label{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.form__input{
+	display: block;
+	width: 100%;
+}
+
+.form__textarea{
+	width: 100%;
+	height: 200px;
+}
+
+.form__button{
+	width: 100%;
+	background: #17ff9c;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 18px;
+}
